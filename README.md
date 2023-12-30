@@ -1,4 +1,4 @@
-# Node.js start v0.2.0
+# Node.js start v1.0.0
 
 _Copyright (c) 2024 Sergio Ridaura._  
 _<https://sergio-ridaura.vercel.app> - <sergio.ridaura@outlook.com>_
@@ -13,37 +13,37 @@ My start theme to develop with **Node.js** and **TypeScript**.
 
 Start the container with Docker Compose.
 
-```shell
+```console
 docker-compose up -d
 ```
 
 Access the Node.js container.
 
-```shell
+```console
 docker exec -it node_node-start
 ```
 
 Add project dependencies.
 
-```shell
+```console
 npm install
 ```
 
 Run the test.
 
-```shell
+```console
 npm run test
 ```
 
 For the development of the application.
 
-```shell
+```console
 npm run dev
 ```
 
 Create application and the package to use in Npm.
 
-```shell
+```console
 npm run build
 ```
 
