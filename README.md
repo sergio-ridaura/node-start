@@ -29,6 +29,18 @@ Add project dependencies.
 npm install
 ```
 
+Run the test.
+
+```shell
+npm run test
+```
+
+For the development of the application.
+
+```shell
+npm run dev
+```
+
 ## Author
 
 **Sergio Ridaura**

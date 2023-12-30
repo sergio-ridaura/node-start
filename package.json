@@ -1,0 +1,43 @@
+{
+  "info": {
+    "description": "Npm project configuration.",
+    "note": "Development information.",
+    "see": "https://docs.npmjs.com/cli/v6/configuring-npm/package-json/"
+  },
+  "name": "node-start-ridaura",
+  "version": "0.1.0",
+  "keywords": [
+    "node",
+    "typescript",
+    "npm"
+  ],
+  "description": "My start theme to develop with Node.js and TypeScript.",
+  "author": {
+    "name": "Sergio Ridaura",
+    "url": "https://sergio-ridaura.vercel.app",
+    "email": "sergio.ridaura@outlook.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/sergio-ridaura/typescript-start",
+    "type": "github"
+  },
+  "files": [
+    "dist/"
+  ],
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --respawn ./src/index.ts",
+    "build": "npm run clean; tsc -p tsconfig.json",
+    "start": "node ./dist/index.js",
+    "clean": "rm -R dist;",
+    "test": "npm run clean; npm run build; node --test ./dist/**/*.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
