@@ -1,0 +1,16 @@
+{
+  "editor.insertSpaces": true,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.rulers": [80],
+  "editor.inlineSuggest.enabled": true,
+  "cSpell.language": "es,en-GB,lorem,en-US,es-ES,en",
+  "cSpell.ignorePaths": [],
+  "cSpell.enableFiletypes": ["*"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  }
+}
