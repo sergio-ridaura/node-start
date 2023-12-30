@@ -1,4 +1,6 @@
 /**
  * Start of the application for the development.
  */
-console.log("Hello World!");
+import { classDefault } from "./components/package";
+
+console.log(classDefault("default", "world!", "hello"));
