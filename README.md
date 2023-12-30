@@ -9,6 +9,26 @@ My start theme to develop with **Node.js** and **TypeScript**.
 
 [![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://sergio-ridaura.vercel.app/blog/node) &nbsp; [![TypeScript](https://img.shields.io/badge/TypeScript-0078D4?style=for-the-badge&logo=typescript&logoColor=white)](https://sergio-ridaura.vercel.app/blog/typescript)
 
+# Installation
+
+Start the container with Docker Compose.
+
+```shell
+docker-compose up -d
+```
+
+Access the Node.js container.
+
+```shell
+docker exec -it node_node-start
+```
+
+Add project dependencies.
+
+```shell
+npm install
+```
+
 ## Author
 
 **Sergio Ridaura**

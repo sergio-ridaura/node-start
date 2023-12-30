@@ -1,0 +1,25 @@
+# ---
+# Docker Compose containers for use in Node.js projects.
+# @see https://docs.docker.com/compose/
+# ---
+
+version: '3.8'
+
+services:
+
+  node:
+    image: node
+    container_name: node_node-start
+    ports:
+      - 3000:3000
+    networks:
+      - network
+    volumes:
+      - ./:/home/node
+    working_dir: /home/node/
+    restart: unless-stopped
+    tty: true
+
+networks:
+  network:
+    driver: bridge
