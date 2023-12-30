@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "ms-ceintl.vscode-language-pack-es",
+    "streetsidesoftware.code-spell-checker",
+    "streetsidesoftware.code-spell-checker-spanish",
+    "mhutchie.git-graph",
+    "ms-azuretools.vscode-docker",
+    "esbenp.prettier-vscode"
+  ],
+  "unwantedRecommendations": []
+}
