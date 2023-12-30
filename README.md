@@ -1,4 +1,4 @@
-# Node.js start v0.1.0
+# Node.js start v0.2.0
 
 _Copyright (c) 2024 Sergio Ridaura._  
 _<https://sergio-ridaura.vercel.app> - <sergio.ridaura@outlook.com>_
@@ -40,6 +40,18 @@ For the development of the application.
 ```shell
 npm run dev
 ```
+
+Create application and the package to use in Npm.
+
+```shell
+npm run build
+```
+
+## Functions
+
+### class
+
+- **classDefault:** Allows you to add default classes to components or use a new one and add new classes.
 
 ## Author
 
