@@ -1,4 +1,4 @@
-# Node.js start v1.0.1
+# Node.js start v1.0.2
 
 _Copyright (c) 2024 Sergio Ridaura._  
 _<https://sergio-ridaura.vercel.app> - <sergio.ridaura@outlook.com>_

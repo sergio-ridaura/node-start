@@ -3,5 +3,5 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * Start of the application for the development.
  */
-const package_1 = require("./components/package");
-console.log((0, package_1.classDefault)("default", "world!", "hello"));
+const components_1 = require("./components");
+console.log((0, components_1.classDefault)("default", "world!", "hello"));
