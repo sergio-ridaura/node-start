@@ -1,4 +1,4 @@
-# Node.js start v1.0.0
+# Node.js start v1.0.1
 
 _Copyright (c) 2024 Sergio Ridaura._  
 _<https://sergio-ridaura.vercel.app> - <sergio.ridaura@outlook.com>_
@@ -45,6 +45,19 @@ Create application and the package to use in Npm.
 
 ```console
 npm run build
+```
+
+Run the application.
+
+```console
+npm run start
+```
+
+Publish the package to Npm.
+
+```console
+npm addUser
+npm publish
 ```
 
 ## Functions

@@ -1,5 +1,5 @@
 /**
- * Compilation of functions, constants, types and similar of the project.
+ * Components to package and distribute in Npm.
  */
 import { classDefault, type ClassDefaultType } from "./class";
 
