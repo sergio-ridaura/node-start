@@ -5,11 +5,12 @@
     "see": "https://docs.npmjs.com/cli/v6/configuring-npm/package-json/"
   },
   "name": "node-start-ridaura",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "keywords": [
     "node",
     "typescript",
-    "npm"
+    "npm",
+    "test"
   ],
   "description": "My start theme to develop with Node.js and TypeScript.",
   "author": {
