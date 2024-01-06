@@ -5,10 +5,14 @@ labels: "project"
 assignees: "sergio.ridaura@outlook.com"
 milestone: "project_update"
 order: 1
-pubDate: "2023-12-30"
-updatedDate: "2023-12-30"
+pubDate: "2024-"
+updatedDate: "2024-"
 ---
 
 ## Describe the feature
 
-Updates the project recursively to keep it up to date.
+A clear and concise description of what you want to happen.
+
+## Additional context
+
+Add any other context or screenshots about the feature request here.

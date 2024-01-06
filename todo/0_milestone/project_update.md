@@ -1,12 +1,16 @@
 ---
 title: "Update project"
 author: "sergio.ridaura@outlook.com"
-pubDate: "2023-12-30"
-updatedDate: "2023-12-30"
+pubDate: "2024-"
+updatedDate: "2024-"
 dueDate: "2033-01-01"
-order: 3
+order: 2
 ---
 
 ## Describe the milestone
 
-Updates the project recursively to keep it up to date.
+A clear and concise description of what you aim to achieve.
+
+## Additional context
+
+Add any other context or screenshots about milestone.
