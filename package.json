@@ -5,7 +5,7 @@
     "see": "https://docs.npmjs.com/cli/v6/configuring-npm/package-json/"
   },
   "name": "node-start-ridaura",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "keywords": [
     "node",
     "typescript",
@@ -23,6 +23,7 @@
     "url": "https://github.com/sergio-ridaura/node-start",
     "type": "github"
   },
+  "theme": "https://github.com/sergio-ridaura/node-start",
   "files": [
     "dist/"
   ],
