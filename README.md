@@ -1,4 +1,4 @@
-# Node.js start v1.0.3
+# Node.js start v1.1.0
 
 _Copyright (c) 2024 Sergio Ridaura._  
 _<https://sergio-ridaura.vercel.app> - <sergio.ridaura@outlook.com>_
@@ -60,7 +60,7 @@ npm addUser
 npm publish
 ```
 
-## Functions
+## Modules
 
 ### class
 

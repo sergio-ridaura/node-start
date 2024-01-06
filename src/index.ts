@@ -1,6 +1,6 @@
 /**
  * Start of the application for the development.
  */
-import { classDefault } from "./components";
+import { classDefault } from "./package";
 
 console.log(classDefault("default", "world!", "hello"));

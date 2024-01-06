@@ -5,7 +5,7 @@
     "see": "https://docs.npmjs.com/cli/v6/configuring-npm/package-json/"
   },
   "name": "node-start-ridaura",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "keywords": [
     "node",
     "typescript",
@@ -27,7 +27,7 @@
     "dist/"
   ],
   "exports": {
-    ".": "./dist/index.js"
+    ".": "./dist/package.js"
   },
   "scripts": {
     "dev": "ts-node-dev --respawn ./src/index.ts",
@@ -35,6 +35,7 @@
     "start": "node ./dist/index.js",
     "clean": "rm -R dist;",
     "test": "npm run clean; npm run build; node --test ./dist/**/*.test.js",
+    "test:file": "npm run clean; npm run build; node --test ./dist/packages/class/default.test.js",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
