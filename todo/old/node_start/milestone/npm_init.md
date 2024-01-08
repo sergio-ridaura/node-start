@@ -1,5 +1,5 @@
 ---
-title: "Init npm"
+title: "Init Npm"
 author: "sergio.ridaura@outlook.com"
 pubDate: "2023-12-30"
 updatedDate: "2023-12-30"
@@ -9,4 +9,4 @@ order: 1
 
 ## Describe the milestone
 
-Share project with npm.
+Share project with Npm.
