@@ -1,5 +1,5 @@
 /**
- * Start of the application for the development.
+ * Start Node.js App development.
  */
 import { classDefault } from "./package";
 

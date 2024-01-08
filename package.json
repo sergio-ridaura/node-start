@@ -5,11 +5,12 @@
     "see": "https://docs.npmjs.com/cli/v6/configuring-npm/package-json/"
   },
   "name": "node-start-ridaura",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "keywords": [
     "node",
     "typescript",
     "npm",
+    "cli",
     "test"
   ],
   "description": "My start theme to develop with Node.js and TypeScript.",
@@ -30,10 +31,15 @@
   "exports": {
     ".": "./dist/package.js"
   },
+  "bin": {
+    "node-start-ridaura": "./dist/cli.js"
+  },
   "scripts": {
     "dev": "ts-node-dev --respawn ./src/index.ts",
+    "dev:cli": "ts-node-dev --respawn ./src/cli.ts",
     "build": "npm run clean; tsc -p tsconfig.json",
     "start": "node ./dist/index.js",
+    "start:cli": "node ./dist/cli.js",
     "clean": "rm -R dist;",
     "test": "npm run clean; npm run build; node --test ./dist/**/*.test.js",
     "test:file": "npm run clean; npm run build; node --test ./dist/packages/class/default.test.js",

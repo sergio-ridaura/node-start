@@ -1,4 +1,4 @@
-# Node.js start v1.2.0
+# Node.js start v1.3.0
 
 _Copyright (c) 2024 Sergio Ridaura._  
 _<https://sergio-ridaura.vercel.app> - <sergio.ridaura@outlook.com>_
@@ -65,6 +65,26 @@ Run the application.
 
 ```console
 npm run start
+```
+
+### CLI
+
+For developing a CLI application, use the `src/cli.ts` file and components from the `src/components` folder.
+
+```console
+npm run dev:start
+```
+
+To install the CLI application on your computer.
+
+```console
+npm install -g
+```
+
+To run the built application.
+
+```console
+npm run start:cli
 ```
 
 ### Npm
